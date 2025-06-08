@@ -50,8 +50,7 @@ Electro Blitz Shop is a demo e-commerce platform for browsing and purchasing the
 1. **Clone the repository:**
 
    ```sh
-   git clone 
-   ```
+   git clone https://github.com/Ahmadjamil888/electro-blitz.git   ```
 
 2. **Navigate to the project directory:**
 
