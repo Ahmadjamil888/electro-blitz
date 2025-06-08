@@ -1,0 +1,133 @@
+
+import { Product } from "@/types/product";
+
+export const products: Product[] = [
+  {
+    id: "1",
+    name: "iPhone 15 Pro Max",
+    price: 1199,
+    originalPrice: 1299,
+    image: "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=500&h=500&fit=crop",
+    category: "Smartphones",
+    brand: "Apple",
+    rating: 4.8,
+    reviews: 2847,
+    description: "The most advanced iPhone yet with titanium design and A17 Pro chip.",
+    features: ["6.7-inch Super Retina XDR display", "A17 Pro chip", "Pro camera system", "5G capable"],
+    inStock: true,
+    isNew: true,
+    isSale: true
+  },
+  {
+    id: "2",
+    name: "MacBook Pro 16-inch",
+    price: 2499,
+    image: "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=500&h=500&fit=crop",
+    category: "Laptops",
+    brand: "Apple",
+    rating: 4.9,
+    reviews: 1523,
+    description: "Supercharged by M3 Pro and M3 Max chips for next-level performance.",
+    features: ["M3 Pro chip", "16-inch Liquid Retina XDR display", "22-hour battery life", "1080p FaceTime HD camera"],
+    inStock: true,
+    isNew: true
+  },
+  {
+    id: "3",
+    name: "Sony WH-1000XM5",
+    price: 349,
+    originalPrice: 399,
+    image: "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?w=500&h=500&fit=crop",
+    category: "Headphones",
+    brand: "Sony",
+    rating: 4.7,
+    reviews: 892,
+    description: "Industry-leading noise canceling headphones with premium sound quality.",
+    features: ["30-hour battery life", "Industry-leading noise canceling", "Crystal clear hands-free calling", "Touch sensor controls"],
+    inStock: true,
+    isSale: true
+  },
+  {
+    id: "4",
+    name: "Gaming PC RTX 4080",
+    price: 2899,
+    image: "https://images.unsplash.com/photo-1587202372634-32705e3bf49c?w=500&h=500&fit=crop",
+    category: "Gaming",
+    brand: "Custom Build",
+    rating: 4.6,
+    reviews: 445,
+    description: "High-performance gaming PC with RTX 4080 for ultimate gaming experience.",
+    features: ["RTX 4080 GPU", "Intel i7-13700K", "32GB DDR5 RAM", "1TB NVMe SSD"],
+    inStock: true
+  },
+  {
+    id: "5",
+    name: "Samsung Galaxy S24 Ultra",
+    price: 1299,
+    image: "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?w=500&h=500&fit=crop",
+    category: "Smartphones",
+    brand: "Samsung",
+    rating: 4.5,
+    reviews: 1876,
+    description: "Ultimate smartphone with S Pen and advanced AI features.",
+    features: ["6.8-inch Dynamic AMOLED 2X", "200MP camera", "S Pen included", "5000mAh battery"],
+    inStock: true
+  },
+  {
+    id: "6",
+    name: "Dell XPS 13",
+    price: 1199,
+    image: "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=500&h=500&fit=crop",
+    category: "Laptops",
+    brand: "Dell",
+    rating: 4.4,
+    reviews: 967,
+    description: "Premium ultrabook with stunning InfinityEdge display.",
+    features: ["13.4-inch InfinityEdge display", "11th Gen Intel Core", "16GB RAM", "512GB SSD"],
+    inStock: true
+  },
+  {
+    id: "7",
+    name: "AirPods Pro (2nd Gen)",
+    price: 249,
+    image: "https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1?w=500&h=500&fit=crop",
+    category: "Headphones",
+    brand: "Apple",
+    rating: 4.8,
+    reviews: 3421,
+    description: "Next-level Active Noise Cancellation and Adaptive Transparency.",
+    features: ["Active Noise Cancellation", "Adaptive Transparency", "Spatial Audio", "6 hours listening time"],
+    inStock: true,
+    isNew: true
+  },
+  {
+    id: "8",
+    name: "PlayStation 5",
+    price: 499,
+    image: "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=500&h=500&fit=crop",
+    category: "Gaming",
+    brand: "Sony",
+    rating: 4.7,
+    reviews: 2156,
+    description: "Next-gen gaming console with lightning-fast loading and stunning graphics.",
+    features: ["Custom SSD", "Ray tracing", "3D Audio", "DualSense controller"],
+    inStock: false
+  }
+];
+
+export const categories = [
+  "All",
+  "Smartphones",
+  "Laptops", 
+  "Headphones",
+  "Gaming"
+];
+
+export const brands = [
+  "All",
+  "Apple",
+  "Samsung", 
+  "Sony",
+  "Dell",
+  "Custom Build"
+];
