@@ -1,9 +1,11 @@
-
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { ArrowRight, Star, Zap, Shield, Truck } from 'lucide-react';
 
 const HeroSection: React.FC = () => {
+  const navigate = useNavigate();
+
   return (
     <div className="bg-gradient-to-br from-blue-600 via-purple-600 to-blue-800 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
@@ -23,11 +25,19 @@ const HeroSection: React.FC = () => {
             </div>
 
             <div className="flex flex-wrap gap-4">
-              <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100">
+              <Button
+                size="lg"
+                className="bg-white text-blue-600 hover:bg-gray-100"
+                onClick={() => navigate('/products')}
+              >
                 Shop Now
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
-              <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-blue-600">
+              <Button
+                size="lg"
+                className="bg-white text-blue-600 hover:bg-gray-100"
+                onClick={() => navigate('/deals')}
+              >
                 View Deals
               </Button>
             </div>

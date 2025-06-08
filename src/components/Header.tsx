@@ -35,7 +35,7 @@ const Header: React.FC<HeaderProps> = ({ searchTerm, onSearchChange }) => {
           <div className="flex items-center">
             <Link to="/">
               <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                TechStore
+                E-cart
               </h1>
             </Link>
           </div>

@@ -1,73 +1,135 @@
-# Welcome to your Lovable project
+# Electro Blitz Shop
 
-## Project info
+A modern e-commerce web application for electronics, built with React, TypeScript, Vite, shadcn-ui, and Tailwind CSS.
 
-**URL**: https://lovable.dev/projects/30f58417-b99b-4ae6-af3e-b49a2b17d02f
+---
 
-## How can I edit this code?
+## Table of Contents
 
-There are several ways of editing your application.
+- [Project Overview](#project-overview)
+- [Tech Stack](#tech-stack)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Running the App](#running-the-app)
+- [Available Scripts](#available-scripts)
+- [Project Structure](#project-structure)
+- [Deployment](#deployment)
+- [Custom Domain](#custom-domain)
+- [Contributing](#contributing)
+- [License](#license)
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/30f58417-b99b-4ae6-af3e-b49a2b17d02f) and start prompting.
+## Project Overview
 
-Changes made via Lovable will be committed automatically to this repo.
+Electro Blitz Shop is a demo e-commerce platform for browsing and purchasing the latest electronics. It features a modern UI, product listings, deals, and more.
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## Tech Stack
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- [Vite](https://vitejs.dev/)
+- [React](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [shadcn-ui](https://ui.shadcn.com/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [react-router-dom](https://reactrouter.com/)
 
-Follow these steps:
+---
+
+## Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (v18 or higher recommended)
+- [npm](https://www.npmjs.com/) (comes with Node.js)
+
+### Installation
+
+1. **Clone the repository:**
+
+   ```sh
+   git clone 
+   ```
+
+2. **Navigate to the project directory:**
+
+   ```sh
+   cd electro-blitz-shop
+   ```
+
+3. **Install dependencies:**
+
+   ```sh
+   npm install
+   ```
+
+### Running the App
+
+Start the development server:
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The app will be available at [http://localhost:5173](http://localhost:5173) (or the port shown in your terminal).
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+## Available Scripts
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+- `npm run dev` – Start the development server with hot reloading.
+- `npm run build` – Build the app for production.
+- `npm run preview` – Preview the production build locally.
+- `npm run lint` – Run linter to check code quality.
 
-## What technologies are used for this project?
+---
 
-This project is built with:
+## Project Structure
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+```
+electro-blitz-shop/
+├── public/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── App.tsx
+│   └── main.tsx
+├── package.json
+├── tailwind.config.js
+├── tsconfig.json
+└── vite.config.ts
+```
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/30f58417-b99b-4ae6-af3e-b49a2b17d02f) and click on Share -> Publish.
+## Deployment
 
-## Can I connect a custom domain to my Lovable project?
+You can deploy this project to any static hosting provider (e.g., Vercel, Netlify, GitHub Pages):
 
-Yes, you can!
+1. Build the app:
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+   ```sh
+   npm run build
+   ```
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+2. Deploy the contents of the `dist` folder to your hosting provider.
+
+---
+
+## Custom Domain
+
+If your hosting provider supports custom domains, follow their documentation to connect your domain to your deployed site.
+
+---
+
+## Contributing
+
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
+
+---
+
+## License
+
+This project is licensed under the MIT License.
